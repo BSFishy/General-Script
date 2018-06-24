@@ -1,0 +1,964 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="b1369a2e-832d-418e-a293-16c2fe45950d" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Class.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Class.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="416">
+              <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+              <folding>
+                <marker date="1526951148212" expanded="false" signature="6:262" ph="..." />
+                <marker date="1526951148212" expanded="true" signature="335:2177" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="431:2175" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="666:1004" ph="/* public override void Instantiate(params dynamic[] input) ... */" />
+                <marker date="1526951148212" expanded="true" signature="1060:1330" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="1071:1281" ph="/* if (_accessModifier != null) ... */" />
+                <marker date="1526951148212" expanded="true" signature="1395:1526" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="1569:1771" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="1822:1867" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="1900:1947" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="1992:2048" ph="{...}" />
+                <marker date="1526951148212" expanded="true" signature="2107:2169" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Method.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Method.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+              <folding>
+                <marker date="1526956262962" expanded="false" signature="6:525" ph="..." />
+                <marker date="1526956262962" expanded="true" signature="671:2737" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="1067:1262" ph="/* public override void Instantiate(params dynamic[] input) ... */" />
+                <marker date="1526956262962" expanded="true" signature="1318:1420" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="1473:1582" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="1630:1678" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="1720:1766" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="1817:1862" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="1938:2731" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="2023:2110" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="2161:2443" ph="{...}" />
+                <marker date="1526956262962" expanded="true" signature="2508:2689" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Scope.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Scope.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="320">
+              <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+              <folding>
+                <marker date="1526679001290" expanded="false" signature="6:135" ph="..." />
+                <marker date="1526679001290" expanded="true" signature="207:1347" ph="{...}" />
+                <marker date="1526679001290" expanded="true" signature="222:290" ph="/* TODO: implement scope ... */" />
+                <marker date="1526679001290" expanded="true" signature="704:791" ph="{...}" />
+                <marker date="1526679001290" expanded="true" signature="848:1124" ph="{...}" />
+                <marker date="1526679001290" expanded="true" signature="882:974" ph="{...}" />
+                <marker date="1526679001290" expanded="true" signature="1010:1114" ph="{...}" />
+                <marker date="1526679001290" expanded="true" signature="1153:1216" ph="{...}" />
+                <marker date="1526679001290" expanded="true" signature="1281:1341" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ValueToken.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ValueToken.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="224">
+              <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+              <folding>
+                <marker date="1526425139555" expanded="true" signature="121:664" ph="{...}" />
+                <marker date="1526425139555" expanded="true" signature="165:449" ph="/* protected abstract void Initialize(IHasOutput value); ... */" />
+                <marker date="1526425139555" expanded="true" signature="492:551" ph="{...}" />
+                <marker date="1526425139555" expanded="true" signature="602:658" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Return.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/Return.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="128">
+              <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+              <folding>
+                <marker date="1527021770756" expanded="false" signature="6:88" ph="..." />
+                <marker date="1527021770756" expanded="true" signature="203:341" ph="{...}" />
+                <marker date="1527021770756" expanded="true" signature="259:335" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cli/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="704">
+              <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+              <folding>
+                <marker date="1527024154994" expanded="false" signature="6:121" ph="..." />
+                <marker date="1527024154994" expanded="true" signature="179:1472" ph="{...}" />
+                <marker date="1527024154994" expanded="true" signature="232:1080" ph="{...}" />
+                <marker date="1527024154994" expanded="true" signature="275:408" ph="{...}" />
+                <marker date="1527024154994" expanded="true" signature="450:547" ph="{...}" />
+                <marker date="1527024154994" expanded="true" signature="594:682" ph="{...}" />
+                <marker date="1527024154994" expanded="true" signature="724:817" ph="{...}" />
+                <marker date="1527024154994" expanded="true" signature="1139:1235" ph="{...}" />
+                <marker date="1527024154994" expanded="true" signature="1281:1466" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Action Tree Token" />
+      </list>
+    </option>
+    <option name="SCHEME" value="Project" />
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Program</find>
+      <find>Exception</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/lib/Dialect/DefaultDialect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Dialect/DefaultParsingApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Lexer/LexedToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Lexer/GenericLexer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Function.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Lexer/LexerResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Parser/ParsedToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/IStructureChild.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Parser/GenericParser.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Constructor.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Parser/ParserResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Interface.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Class.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/ActionTreeResult.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/ActionTreeToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Enum.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/GenericActionTree.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Method.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Field.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/EnumSpecific/IEnumChild.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/ConstantType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/EnumSpecific/EnumElement.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/ClassSpecific/IClassChild.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/InterfaceSpecific/InterfaceMethod.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Number/Long.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/InterfaceSpecific/IInterfaceChild.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Number/Double.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Number/Float.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Value/Variable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Number/Integer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Number/Short.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Value/Type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Operator/Value.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Object/Instance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Operator/Comparison.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Object/Bool.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Operator/Arithmatic.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Object/Null.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Character/String.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Types/Character/Char.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/IfElse.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/EType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/DoWhile.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/Finally.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Value/ReturnType.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/If.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/IHasOutput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/Catch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/For.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Scope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/Try.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/While.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/Else.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/IValueToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Block/ForEach.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ConstantToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/CallFunction.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ValueToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/Return.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/IHasConstantOutput.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/SetVariable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ValueHandle.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/TypeToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cli/Properties/app.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Special/IArgument.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/EqualityToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/OperatorToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/ValueOperatorToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/ArithmaticToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/SidedOperatorToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/IOperatorToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/IContainerToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/ContainerToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/IHasScope.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/Modifiers.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/IModifiable.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/Block/BlockToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/Block/IBlockToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Statement/CommandToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Statement/StatementToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Statement/BlockStatementCommand.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Statement/IStatementToken.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/DialectApi/Dialect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/DialectApi/DialectLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/DialectApi/GsDialect.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/VirtualMachineApi/VirtualMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/VirtualMachineApi/VirtualMachineLoader.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/VirtualMachineApi/GsVirtualMachine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cli/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/cli/Properties/AssemblyInfo.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/File.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/ParsingApi.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/api/GS.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Number/Float.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Object/Bool.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Number/Num.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Number/Long.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Number/Short.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Number/Integer.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Container/IHasScope.cs" />
+        <option value="$PROJECT_DIR$/api/VirtualMachineApi/VirtualMachineLoader.cs" />
+        <option value="$PROJECT_DIR$/api/VirtualMachineApi/VirtualMachine.cs" />
+        <option value="$PROJECT_DIR$/api/DialectApi/Dialect.cs" />
+        <option value="$PROJECT_DIR$/api/DialectApi/GsDialect.cs" />
+        <option value="$PROJECT_DIR$/lib/Dialect/DefaultParsingApi.cs" />
+        <option value="$PROJECT_DIR$/lib/Dialect/DefaultDialect.cs" />
+        <option value="$PROJECT_DIR$/api/VirtualMachineApi/GsVirtualMachine.cs" />
+        <option value="$PROJECT_DIR$/api/DialectApi/DialectLoader.cs" />
+        <option value="$PROJECT_DIR$/api/GS.cs" />
+        <option value="$PROJECT_DIR$/api/ParsingApi.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/EnumSpecific/Constructor.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Field.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/EnumSpecific/EnumElement.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/InterfaceSpecific/InterfaceMethod.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/InterfaceSpecific/IInterfaceChild.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/EnumSpecific/IEnumChild.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/ClassSpecific/IClassChild.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/IStructureChild.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Container/Block/IBlockToken.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Container/Block/BlockToken.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Args/IArgument.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Args/Argument.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Statement/IStatementToken.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Statement/StatementToken.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/ActionTreeToken.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/ConstantType.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Object/Instance.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Types/Object/Null.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Operator/SidedOperatorToken.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Class.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Enum.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Interface.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/Return.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Special/IArgument.cs" />
+        <option value="$PROJECT_DIR$/api/ActionTree/Tokens/Scope.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Value/ReturnType.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Constructor.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Operator/Arithmatic.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Method.cs" />
+        <option value="$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/CallFunction.cs" />
+        <option value="$PROJECT_DIR$/cli/Properties/app.config.xml" />
+        <option value="$PROJECT_DIR$/cli/Properties/app.config" />
+        <option value="$PROJECT_DIR$/cli/Program.cs" />
+        <option value="$PROJECT_DIR$/cli/cli.csproj" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-76" />
+    <option name="y" value="-20" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AngularJS</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeneralScript (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeneralScript (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="cli" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeneralScript (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="cli" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeneralScript (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="cli" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="References" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Projects" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="GeneralScript (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="cli" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Properties" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="ToolWindowReactNative.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/bin/Debug/default_api.dll" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/cli/bin/Debug/gs.exe" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cli/bin/Debug" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/cli/cli.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="Console" />
+      <option name="PROJECT_TFM" value=".NETFramework,Version=v4.6.1" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b1369a2e-832d-418e-a293-16c2fe45950d" name="Default" comment="" />
+      <created>1526069463394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1526069463394</updated>
+      <workItem from="1526069472106" duration="7614000" />
+      <workItem from="1526077148630" duration="32207000" />
+      <workItem from="1526415148691" duration="20916000" />
+      <workItem from="1526588417544" duration="3685000" />
+      <workItem from="1526676679447" duration="2835000" />
+      <workItem from="1526938367213" duration="2585000" />
+      <workItem from="1526954343910" duration="1956000" />
+      <workItem from="1527022043873" duration="2561000" />
+      <workItem from="1529782338929" duration="1822000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="76181000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32934782" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="bottom" auto_hide="true" x="22" y="368" width="1876" height="303" id="ReactNative" order="7" show_stripe_button="false" sideWeight="0.49573562" weight="0.32934782" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5042644" side_tool="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Unit Tests" order="7" weight="0.32934782" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32934782" />
+      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49573562" weight="0.32934782" />
+      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32934782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27452025" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Build" order="7" visible="true" weight="0.32897604" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection Results" order="8" weight="0.32934782" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32934782" />
+    </layout>
+    <layout-to-restore>
+      <window_info anchor="bottom" id="NuGet" order="13" weight="0.32934782" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="14" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="3" />
+      <window_info anchor="bottom" auto_hide="true" x="22" y="368" width="1876" height="303" id="ReactNative" order="8" show_stripe_button="false" sideWeight="0.49573562" weight="0.32934782" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25586355" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32934782" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection Results" order="0" weight="0.32934782" />
+      <window_info anchor="bottom" id="Unit Tests" order="10" weight="0.32934782" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="bottom" id="Terminal" order="12" sideWeight="0.49573562" weight="0.32934782" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5042644" side_tool="true" weight="0.32934782" />
+      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Build" order="15" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" isUnityUI="false" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ValueToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <marker date="1526425139555" expanded="true" signature="121:664" ph="{...}" />
+            <marker date="1526425139555" expanded="true" signature="165:449" ph="/* protected abstract void Initialize(IHasOutput value); ... */" />
+            <marker date="1526425139555" expanded="true" signature="492:551" ph="{...}" />
+            <marker date="1526425139555" expanded="true" signature="602:658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/Return.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <marker date="1527021770756" expanded="false" signature="6:88" ph="..." />
+            <marker date="1527021770756" expanded="true" signature="203:341" ph="{...}" />
+            <marker date="1527021770756" expanded="true" signature="259:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/DialectApi/DialectLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="37" column="79" selection-start-line="37" selection-start-column="79" selection-end-line="37" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/GS.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="16" column="92" selection-start-line="16" selection-start-column="92" selection-end-line="16" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ParsingApi.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-337">
+          <caret line="74" column="85" lean-forward="true" selection-start-line="74" selection-start-column="85" selection-end-line="74" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Dialect/DefaultDialect.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="24" selection-start-column="24" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/VirtualMachineApi/VirtualMachineLoader.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Types/Number/Short.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Field.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/EnumSpecific/EnumElement.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="41" selection-start-line="2" selection-start-column="41" selection-end-line="2" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/InterfaceSpecific/InterfaceMethod.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/EnumSpecific/IEnumChild.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/ClassSpecific/IClassChild.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="32" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/InterfaceSpecific/IInterfaceChild.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/IStructureChild.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="79" selection-start-line="6" selection-start-column="79" selection-end-line="6" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/ContainerToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="160">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Statement/BlockStatementCommand.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/Block/IBlockToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/TypeToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Container/Block/BlockToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="86" selection-start-line="2" selection-start-column="86" selection-end-line="2" selection-end-column="86" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ValueHandle.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="35" selection-start-line="5" selection-start-column="35" selection-end-line="5" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Types/Object/Bool.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="9" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Statement/StatementToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="3" column="5" selection-start-line="3" selection-start-column="5" selection-end-line="3" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Statement/IStatementToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Types/Object/Instance.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Types/Object/Null.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="41" selection-start-line="16" selection-start-column="41" selection-end-line="16" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/ActionTreeToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="67" selection-start-line="18" selection-start-column="67" selection-end-line="18" selection-end-column="67" />
+          <folding>
+            <marker date="1526951148194" expanded="false" signature="6:47" ph="..." />
+            <marker date="1526951148194" expanded="true" signature="94:442" ph="/// Represents a token super-type. This is what all tokens extend in order to be valid tokens, and in order to be ... " />
+            <marker date="1526951148194" expanded="true" signature="484:4004" ph="{...}" />
+            <marker date="1526951148194" expanded="true" signature="491:996" ph="/*        /// The method called to initialize the data for the token. This can inclide information such as modif ... */" />
+            <marker date="1526951148194" expanded="true" signature="1014:1692" ph="/// The main method called when running the code. This will provide the method with any required inputs, and ... " />
+            <marker date="1526951148194" expanded="true" signature="1753:1892" ph="///  ... " />
+            <marker date="1526951148194" expanded="true" signature="1976:2053" ph="{...}" />
+            <marker date="1526951148194" expanded="true" signature="2063:2264" ph="///  ... " />
+            <marker date="1526951148194" expanded="true" signature="2348:3131" ph="{...}" />
+            <marker date="1526951148194" expanded="true" signature="2751:3121" ph="{...}" />
+            <marker date="1526951148194" expanded="true" signature="3141:3332" ph="///  ... " />
+            <marker date="1526951148194" expanded="true" signature="3448:3998" ph="{...}" />
+            <marker date="1526951148194" expanded="true" signature="3541:3737" ph="{...}" />
+            <marker date="1526951148194" expanded="true" signature="3782:3866" ph="{...}" />
+            <marker date="1526951148194" expanded="true" signature="3883:3935" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/SidedOperatorToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="655">
+          <caret line="47" column="12" selection-start-line="47" selection-start-column="12" selection-end-line="47" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Enum.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="46" column="37" selection-start-line="46" selection-start-column="37" selection-end-line="46" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Args/IArgument.cs" />
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Args/Argument.cs" />
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Special/IArgument.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="32">
+          <caret line="2" column="23" selection-start-line="2" selection-start-column="23" selection-end-line="2" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Constructor.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="400">
+          <caret line="25" column="41" lean-forward="true" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
+          <folding>
+            <marker date="1526955232133" expanded="true" signature="6:334" ph="..." />
+            <marker date="1526955232133" expanded="true" signature="485:1216" ph="{...}" />
+            <marker date="1526955232133" expanded="true" signature="709:811" ph="{...}" />
+            <marker date="1526955232133" expanded="true" signature="864:973" ph="{...}" />
+            <marker date="1526955232133" expanded="true" signature="1032:1077" ph="{...}" />
+            <marker date="1526955232133" expanded="true" signature="1147:1210" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Value/ReturnType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Interface.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="46" column="33" selection-start-line="46" selection-start-column="33" selection-end-line="46" selection-end-column="33" />
+          <folding>
+            <marker date="1526949049335" expanded="false" signature="6:266" ph="..." />
+            <marker date="1526949049335" expanded="true" signature="443:2116" ph="{...}" />
+            <marker date="1526949049335" expanded="true" signature="607:945" ph="/* public override void Instantiate(params dynamic[] input) ... */" />
+            <marker date="1526949049335" expanded="true" signature="1001:1271" ph="{...}" />
+            <marker date="1526949049335" expanded="true" signature="1012:1222" ph="/* if (_accessModifier != null) ... */" />
+            <marker date="1526949049335" expanded="true" signature="1336:1467" ph="{...}" />
+            <marker date="1526949049335" expanded="true" signature="1510:1712" ph="{...}" />
+            <marker date="1526949049335" expanded="true" signature="1763:1808" ph="{...}" />
+            <marker date="1526949049335" expanded="true" signature="1841:1888" ph="{...}" />
+            <marker date="1526949049335" expanded="true" signature="1933:1989" ph="{...}" />
+            <marker date="1526949049335" expanded="true" signature="2048:2110" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Operator/ArithmaticToken.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/IHasConstantOutput.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ConstantToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Types/ConstantType.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="384">
+          <caret line="26" column="61" selection-start-line="26" selection-start-column="61" selection-end-line="26" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Types/Number/Integer.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Operator/Arithmatic.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="42" lean-forward="true" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/IValueToken.cs">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Value/ValueToken.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="14" column="11" selection-start-line="14" selection-start-column="11" selection-end-line="14" selection-end-column="11" />
+          <folding>
+            <marker date="1526425139555" expanded="true" signature="121:664" ph="{...}" />
+            <marker date="1526425139555" expanded="true" signature="165:449" ph="/* protected abstract void Initialize(IHasOutput value); ... */" />
+            <marker date="1526425139555" expanded="true" signature="492:551" ph="{...}" />
+            <marker date="1526425139555" expanded="true" signature="602:658" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Method.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="25" column="36" selection-start-line="25" selection-start-column="36" selection-end-line="25" selection-end-column="36" />
+          <folding>
+            <marker date="1526956262962" expanded="false" signature="6:525" ph="..." />
+            <marker date="1526956262962" expanded="true" signature="671:2737" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="1067:1262" ph="/* public override void Instantiate(params dynamic[] input) ... */" />
+            <marker date="1526956262962" expanded="true" signature="1318:1420" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="1473:1582" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="1630:1678" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="1720:1766" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="1817:1862" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="1938:2731" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="2023:2110" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="2161:2443" ph="{...}" />
+            <marker date="1526956262962" expanded="true" signature="2508:2689" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/CallFunction.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="752">
+          <caret line="47" column="81" selection-start-line="47" selection-start-column="81" selection-end-line="47" selection-end-column="81" />
+          <folding>
+            <marker date="1526956260274" expanded="true" signature="6:326" ph="..." />
+            <marker date="1526956260274" expanded="true" signature="447:2182" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="737:958" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="1006:1226" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="1294:1408" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="1467:2176" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="1673:1955" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="1724:1941" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="1804:1923" ph="{...}" />
+            <marker date="1526956260274" expanded="true" signature="1983:2126" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/ActionTree/Tokens/Scope.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
+          <folding>
+            <marker date="1526679001290" expanded="false" signature="6:135" ph="..." />
+            <marker date="1526679001290" expanded="true" signature="207:1347" ph="{...}" />
+            <marker date="1526679001290" expanded="true" signature="222:290" ph="/* TODO: implement scope ... */" />
+            <marker date="1526679001290" expanded="true" signature="704:791" ph="{...}" />
+            <marker date="1526679001290" expanded="true" signature="848:1124" ph="{...}" />
+            <marker date="1526679001290" expanded="true" signature="882:974" ph="{...}" />
+            <marker date="1526679001290" expanded="true" signature="1010:1114" ph="{...}" />
+            <marker date="1526679001290" expanded="true" signature="1153:1216" ph="{...}" />
+            <marker date="1526679001290" expanded="true" signature="1281:1341" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Statement/Command/Return.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="9" column="55" selection-start-line="9" selection-start-column="55" selection-end-line="9" selection-end-column="55" />
+          <folding>
+            <marker date="1527021770756" expanded="false" signature="6:88" ph="..." />
+            <marker date="1527021770756" expanded="true" signature="203:341" ph="{...}" />
+            <marker date="1527021770756" expanded="true" signature="259:335" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="704">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <marker date="1527024154994" expanded="false" signature="6:121" ph="..." />
+            <marker date="1527024154994" expanded="true" signature="179:1472" ph="{...}" />
+            <marker date="1527024154994" expanded="true" signature="232:1080" ph="{...}" />
+            <marker date="1527024154994" expanded="true" signature="275:408" ph="{...}" />
+            <marker date="1527024154994" expanded="true" signature="450:547" ph="{...}" />
+            <marker date="1527024154994" expanded="true" signature="594:682" ph="{...}" />
+            <marker date="1527024154994" expanded="true" signature="724:817" ph="{...}" />
+            <marker date="1527024154994" expanded="true" signature="1139:1235" ph="{...}" />
+            <marker date="1527024154994" expanded="true" signature="1281:1466" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/Properties/app.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cli/cli.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="93" column="47" selection-start-line="93" selection-start-column="47" selection-end-line="93" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/Runtime/ActionTree/Block/Structured/Class.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="31" column="15" lean-forward="true" selection-start-line="31" selection-start-column="15" selection-end-line="31" selection-end-column="15" />
+          <folding>
+            <marker date="1526951148212" expanded="false" signature="6:262" ph="..." />
+            <marker date="1526951148212" expanded="true" signature="335:2177" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="431:2175" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="666:1004" ph="/* public override void Instantiate(params dynamic[] input) ... */" />
+            <marker date="1526951148212" expanded="true" signature="1060:1330" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="1071:1281" ph="/* if (_accessModifier != null) ... */" />
+            <marker date="1526951148212" expanded="true" signature="1395:1526" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="1569:1771" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="1822:1867" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="1900:1947" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="1992:2048" ph="{...}" />
+            <marker date="1526951148212" expanded="true" signature="2107:2169" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

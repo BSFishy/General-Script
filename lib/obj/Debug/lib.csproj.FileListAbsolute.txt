@@ -1,0 +1,9 @@
+C:\Users\Matt\GeneralScript\lib\obj\Debug\lib.csproj.CoreCompileInputs.cache
+C:\Users\Matt\GeneralScript\lib\bin\Debug\default_api.dll
+C:\Users\Matt\GeneralScript\lib\bin\Debug\default_api.pdb
+C:\Users\Matt\GeneralScript\lib\obj\Debug\default_api.dll
+C:\Users\Matt\GeneralScript\lib\obj\Debug\default_api.pdb
+C:\Users\Matt\GeneralScript\lib\bin\Debug\api.dll
+C:\Users\Matt\GeneralScript\lib\bin\Debug\api.pdb
+C:\Users\Matt\GeneralScript\lib\obj\Debug\lib.csprojAssemblyReference.cache
+C:\Users\Matt\GeneralScript\lib\obj\Debug\lib.csproj.CopyComplete

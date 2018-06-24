@@ -1,0 +1,6 @@
+C:\Users\Matt\GeneralScript\api\obj\Debug\api.csproj.CoreCompileInputs.cache
+C:\Users\Matt\GeneralScript\api\bin\Debug\api.pdb
+C:\Users\Matt\GeneralScript\api\obj\Debug\api.pdb
+C:\Users\Matt\GeneralScript\api\obj\Debug\api.dll
+C:\Users\Matt\GeneralScript\api\bin\Debug\api.dll
+C:\Users\Matt\GeneralScript\api\obj\Debug\api.csprojAssemblyReference.cache

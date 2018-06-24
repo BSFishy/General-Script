@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Matt\.Rider2018.1\system\resharper-host\local\Transient\ReSharperHost\v12\SolutionCaches\_GeneralScript.-233196369.00" t="ExcludeRecursive" />
+    <e p="C:\Users\Matt\GeneralScript" t="IncludeFlat">
+      <e p="api" t="IncludeRecursive">
+        <e p="ActionTree" t="Include">
+          <e p="ActionTreeResult.cs" t="Include" />
+          <e p="ActionTreeToken.cs" t="Include" />
+          <e p="GenericActionTree.cs" t="Include" />
+          <e p="Tokens" t="Include">
+            <e p="Container" t="Include">
+              <e p="Block" t="Include">
+                <e p="BlockToken.cs" t="Include" />
+                <e p="IBlockToken.cs" t="Include" />
+              </e>
+              <e p="ContainerToken.cs" t="Include" />
+              <e p="IContainerToken.cs" t="Include" />
+              <e p="IHasScope.cs" t="Include" />
+              <e p="IModifiable.cs" t="Include" />
+              <e p="Modifiers.cs" t="Include" />
+            </e>
+            <e p="EType.cs" t="Include" />
+            <e p="IHasOutput.cs" t="Include" />
+            <e p="Operator" t="Include">
+              <e p="ArithmaticToken.cs" t="Include" />
+              <e p="EqualityToken.cs" t="Include" />
+              <e p="IOperatorToken.cs" t="Include" />
+              <e p="OperatorToken.cs" t="Include" />
+              <e p="SidedOperatorToken.cs" t="Include" />
+              <e p="ValueOperatorToken.cs" t="Include" />
+            </e>
+            <e p="Scope.cs" t="Include" />
+            <e p="Special" t="Include">
+              <e p="Argument.cs" t="Include" />
+              <e p="IArgument.cs" t="Include" />
+            </e>
+            <e p="Statement" t="Include">
+              <e p="BlockStatementCommand.cs" t="Include" />
+              <e p="CommandToken.cs" t="Include" />
+              <e p="IStatementToken.cs" t="Include" />
+              <e p="StatementToken.cs" t="Include" />
+            </e>
+            <e p="Value" t="Include">
+              <e p="ConstantToken.cs" t="Include" />
+              <e p="IHasConstantOutput.cs" t="Include" />
+              <e p="IValueToken.cs" t="Include" />
+              <e p="TypeToken.cs" t="Include" />
+              <e p="ValueHandle.cs" t="Include" />
+              <e p="ValueToken.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Types" t="Include">
+            <e p="Character" t="Include">
+              <e p="Char.cs" t="Include" />
+              <e p="String.cs" t="Include" />
+            </e>
+            <e p="ConstantType.cs" t="Include" />
+            <e p="Number" t="Include">
+              <e p="Double.cs" t="Include" />
+              <e p="Float.cs" t="Include" />
+              <e p="Integer.cs" t="Include" />
+              <e p="Long.cs" t="Include" />
+              <e p="Short.cs" t="Include" />
+            </e>
+            <e p="Object" t="Include">
+              <e p="Bool.cs" t="Include" />
+              <e p="Instance.cs" t="Include" />
+              <e p="Null.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="api.csproj" t="IncludeRecursive" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="DialectApi" t="Include">
+          <e p="Dialect.cs" t="Include" />
+          <e p="DialectLoader.cs" t="Include" />
+          <e p="GSDialect.cs" t="Include" />
+        </e>
+        <e p="File.cs" t="Include" />
+        <e p="GS.cs" t="Include" />
+        <e p="Lexer" t="Include">
+          <e p="GenericLexer.cs" t="Include" />
+          <e p="LexedToken.cs" t="Include" />
+          <e p="LexerResult.cs" t="Include" />
+        </e>
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Parser" t="Include">
+          <e p="GenericParser.cs" t="Include" />
+          <e p="ParsedToken.cs" t="Include" />
+          <e p="ParserResult.cs" t="Include" />
+        </e>
+        <e p="ParsingApi.cs" t="Include" />
+        <e p="Program.cs" t="Include" />
+        <e p="VirtualMachineApi" t="Include">
+          <e p="GsVirtualMachine.cs" t="Include" />
+          <e p="VirtualMachine.cs" t="Include" />
+          <e p="VirtualMachineLoader.cs" t="Include" />
+        </e>
+      </e>
+      <e p="cli" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="cli.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="app.config" t="Include" />
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+      </e>
+      <e p="GeneralScript.sln" t="IncludeFlat" />
+      <e p="lib" t="IncludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="Dialect" t="Include">
+          <e p="ActionTree" t="Include" />
+          <e p="DefaultDialect.cs" t="Include" />
+          <e p="DefaultParsingApi.cs" t="Include" />
+          <e p="Lexer" t="Include" />
+          <e p="Parser" t="Include" />
+        </e>
+        <e p="lib.csproj" t="IncludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="Runtime" t="Include">
+          <e p="ActionTree" t="Include">
+            <e p="Block" t="Include">
+              <e p="Structured" t="Include">
+                <e p="Class.cs" t="Include" />
+                <e p="ClassSpecific" t="Include">
+                  <e p="IClassChild.cs" t="Include" />
+                </e>
+                <e p="Constructor.cs" t="Include" />
+                <e p="Enum.cs" t="Include" />
+                <e p="EnumSpecific" t="Include">
+                  <e p="EnumElement.cs" t="Include" />
+                  <e p="IEnumChild.cs" t="Include" />
+                </e>
+                <e p="Field.cs" t="Include" />
+                <e p="Function.cs" t="Include" />
+                <e p="Interface.cs" t="Include" />
+                <e p="InterfaceSpecific" t="Include">
+                  <e p="IInterfaceChild.cs" t="Include" />
+                  <e p="InterfaceMethod.cs" t="Include" />
+                </e>
+                <e p="IStructureChild.cs" t="Include" />
+                <e p="Method.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Operator" t="Include">
+              <e p="Arithmatic.cs" t="Include" />
+              <e p="Comparison.cs" t="Include" />
+              <e p="Value.cs" t="Include" />
+            </e>
+            <e p="Statement" t="Include">
+              <e p="Block" t="Include">
+                <e p="Catch.cs" t="Include" />
+                <e p="DoWhile.cs" t="Include" />
+                <e p="Else.cs" t="Include" />
+                <e p="Finally.cs" t="Include" />
+                <e p="For.cs" t="Include" />
+                <e p="ForEach.cs" t="Include" />
+                <e p="If.cs" t="Include" />
+                <e p="IfElse.cs" t="Include" />
+                <e p="Try.cs" t="Include" />
+                <e p="While.cs" t="Include" />
+              </e>
+              <e p="Command" t="Include">
+                <e p="CallFunction.cs" t="Include" />
+                <e p="Return.cs" t="Include" />
+                <e p="SetVariable.cs" t="Include" />
+              </e>
+            </e>
+            <e p="Value" t="Include">
+              <e p="Constant" t="Include" />
+              <e p="ReturnType.cs" t="Include" />
+              <e p="Type.cs" t="Include" />
+              <e p="Variable.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+      </e>
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

@@ -1,0 +1,12 @@
+C:\Users\Matt\GeneralScript\cli\obj\Debug\cli.csproj.CoreCompileInputs.cache
+C:\Users\Matt\GeneralScript\cli\bin\Debug\gs.exe
+C:\Users\Matt\GeneralScript\cli\bin\Debug\gs.pdb
+C:\Users\Matt\GeneralScript\cli\obj\Debug\gs.exe
+C:\Users\Matt\GeneralScript\cli\obj\Debug\gs.pdb
+C:\Users\Matt\GeneralScript\cli\obj\Debug\cli.csprojAssemblyReference.cache
+C:\Users\Matt\GeneralScript\cli\bin\Debug\gs.exe.config
+C:\Users\Matt\GeneralScript\cli\bin\Debug\api.dll
+C:\Users\Matt\GeneralScript\cli\bin\Debug\default_api.dll
+C:\Users\Matt\GeneralScript\cli\bin\Debug\api.pdb
+C:\Users\Matt\GeneralScript\cli\bin\Debug\default_api.pdb
+C:\Users\Matt\GeneralScript\cli\obj\Debug\cli.csproj.CopyComplete

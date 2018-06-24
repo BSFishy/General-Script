@@ -1,0 +1,106 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8A7D6923-CD9C-4269-912D-3AF05C787AB0}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeneralScript.Api</RootNamespace>
+    <AssemblyName>api</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="ActionTree\ActionTreeResult.cs" />
+    <Compile Include="ActionTree\ActionTreeToken.cs" />
+    <Compile Include="ActionTree\GenericActionTree.cs" />
+    <Compile Include="ActionTree\Tokens\Special\Argument.cs" />
+    <Compile Include="ActionTree\Tokens\Special\IArgument.cs" />
+    <Compile Include="ActionTree\Tokens\Container\Block\BlockToken.cs" />
+    <Compile Include="ActionTree\Tokens\Container\Block\IBlockToken.cs" />
+    <Compile Include="ActionTree\Tokens\Container\ContainerToken.cs" />
+    <Compile Include="ActionTree\Tokens\Container\IContainerToken.cs" />
+    <Compile Include="ActionTree\Tokens\Container\IHasScope.cs" />
+    <Compile Include="ActionTree\Tokens\Container\IModifiable.cs" />
+    <Compile Include="ActionTree\Tokens\Container\Modifiers.cs" />
+    <Compile Include="ActionTree\Tokens\EType.cs" />
+    <Compile Include="ActionTree\Tokens\IHasOutput.cs" />
+    <Compile Include="ActionTree\Tokens\Operator\ArithmaticToken.cs" />
+    <Compile Include="ActionTree\Tokens\Operator\EqualityToken.cs" />
+    <Compile Include="ActionTree\Tokens\Operator\IOperatorToken.cs" />
+    <Compile Include="ActionTree\Tokens\Operator\OperatorToken.cs" />
+    <Compile Include="ActionTree\Tokens\Operator\SidedOperatorToken.cs" />
+    <Compile Include="ActionTree\Tokens\Operator\ValueOperatorToken.cs" />
+    <Compile Include="ActionTree\Tokens\Scope.cs" />
+    <Compile Include="ActionTree\Tokens\Statement\BlockStatementCommand.cs" />
+    <Compile Include="ActionTree\Tokens\Statement\CommandToken.cs" />
+    <Compile Include="ActionTree\Tokens\Statement\IStatementToken.cs" />
+    <Compile Include="ActionTree\Tokens\Statement\StatementToken.cs" />
+    <Compile Include="ActionTree\Tokens\Value\ConstantToken.cs" />
+    <Compile Include="ActionTree\Tokens\Value\IHasConstantOutput.cs" />
+    <Compile Include="ActionTree\Tokens\Value\IValueToken.cs" />
+    <Compile Include="ActionTree\Tokens\Value\TypeToken.cs" />
+    <Compile Include="ActionTree\Tokens\Value\ValueHandle.cs" />
+    <Compile Include="ActionTree\Tokens\Value\ValueToken.cs" />
+    <Compile Include="ActionTree\Types\Character\Char.cs" />
+    <Compile Include="ActionTree\Types\Character\String.cs" />
+    <Compile Include="ActionTree\Types\ConstantType.cs" />
+    <Compile Include="ActionTree\Types\Number\Double.cs" />
+    <Compile Include="ActionTree\Types\Number\Float.cs" />
+    <Compile Include="ActionTree\Types\Number\Integer.cs" />
+    <Compile Include="ActionTree\Types\Number\Long.cs" />
+    <Compile Include="ActionTree\Types\Number\Short.cs" />
+    <Compile Include="ActionTree\Types\Object\Bool.cs" />
+    <Compile Include="ActionTree\Types\Object\Instance.cs" />
+    <Compile Include="ActionTree\Types\Object\Null.cs" />
+    <Compile Include="DialectApi\Dialect.cs" />
+    <Compile Include="DialectApi\DialectLoader.cs" />
+    <Compile Include="DialectApi\GsDialect.cs" />
+    <Compile Include="File.cs" />
+    <Compile Include="GS.cs" />
+    <Compile Include="Lexer\GenericLexer.cs" />
+    <Compile Include="Lexer\LexedToken.cs" />
+    <Compile Include="Lexer\LexerResult.cs" />
+    <Compile Include="Parser\GenericParser.cs" />
+    <Compile Include="Parser\ParsedToken.cs" />
+    <Compile Include="Parser\ParserResult.cs" />
+    <Compile Include="ParsingApi.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="VirtualMachineApi\GsVirtualMachine.cs" />
+    <Compile Include="VirtualMachineApi\VirtualMachine.cs" />
+    <Compile Include="VirtualMachineApi\VirtualMachineLoader.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

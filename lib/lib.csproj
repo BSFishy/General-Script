@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{10EF98DC-E1F1-43E6-BDDA-1B0035074133}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeneralScript.Api.Default</RootNamespace>
+    <AssemblyName>default_api</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Dialect\DefaultDialect.cs" />
+    <Compile Include="Dialect\DefaultParsingApi.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\Class.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\ClassSpecific\IClassChild.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\Constructor.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\Enum.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\EnumSpecific\EnumElement.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\EnumSpecific\IEnumChild.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\Field.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\Function.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\Interface.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\InterfaceSpecific\IInterfaceChild.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\InterfaceSpecific\InterfaceMethod.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\IStructureChild.cs" />
+    <Compile Include="Runtime\ActionTree\Block\Structured\Method.cs" />
+    <Compile Include="Runtime\ActionTree\Operator\Arithmatic.cs" />
+    <Compile Include="Runtime\ActionTree\Operator\Comparison.cs" />
+    <Compile Include="Runtime\ActionTree\Operator\Value.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\Catch.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\DoWhile.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\Else.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\Finally.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\For.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\ForEach.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\If.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\IfElse.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\Try.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Block\While.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Command\CallFunction.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Command\Return.cs" />
+    <Compile Include="Runtime\ActionTree\Statement\Command\SetVariable.cs" />
+    <Compile Include="Runtime\ActionTree\Value\ReturnType.cs" />
+    <Compile Include="Runtime\ActionTree\Value\Type.cs" />
+    <Compile Include="Runtime\ActionTree\Value\Variable.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Dialect\ActionTree" />
+    <Folder Include="Dialect\Lexer" />
+    <Folder Include="Dialect\Parser" />
+    <Folder Include="Runtime\ActionTree\Value\Constant" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\api\api.csproj">
+      <Project>{8a7d6923-cd9c-4269-912d-3af05c787ab0}</Project>
+      <Name>api</Name>
+      <!--<Private>false</Private>
+	  <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+	  <OutputItemType>Content</OutputItemType>
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>-->
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>

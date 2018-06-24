@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{EBAB4BF0-F6D4-47AF-B5E8-6648D7A1D215}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GeneralScript.Cli</RootNamespace>
+    <AssemblyName>gs</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>GeneralScript.Cli.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\api\api.csproj">
+      <Project>{8a7d6923-cd9c-4269-912d-3af05c787ab0}</Project>
+      <Name>api</Name>
+      <Private>True</Private>
+      <!--<Targets>Build;DebugSymbolsProjectOutputGroup</Targets>
+	  <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+	  <OutputItemType>Content</OutputItemType>
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>-->
+    </ProjectReference>
+    <ProjectReference Include="..\lib\lib.csproj">
+      <Project>{10ef98dc-e1f1-43e6-bdda-1b0035074133}</Project>
+      <Name>lib</Name>
+      <Private>True</Private>
+      <!--<Targets>Build;DebugSymbolsProjectOutputGroup</Targets>
+	  <ReferenceOutputAssembly>true</ReferenceOutputAssembly>
+	  <OutputItemType>Content</OutputItemType>
+	  <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+	  <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>-->
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\app.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  
+  <PropertyGroup>
+    <BuildDependsOn>
+      $(BuildDependsOn);
+      CopyApi;
+      CopyLib;
+    </BuildDependsOn>
+  </PropertyGroup>
+
+  <Target Name="CopyApi">
+    <ItemGroup>
+      <ApiFiles Include="$(OutDir)api.*" />
+    </ItemGroup>
+
+    <Move SourceFiles="@(ApiFiles)" DestinationFolder="$(OutDir)\api" />
+    <!--<Copy SourceFiles="@(ApiFiles)" DestinationFolder="$(OutDir)\api" />-->
+    <!--<Delete Files="@(ApiFiles)" />-->
+  </Target>
+
+  <Target Name="CopyLib">
+    <ItemGroup>
+      <LibFiles Include="$(OutDir)default_api.*" />
+    </ItemGroup>
+
+    <Move SourceFiles="@(LibFiles)" DestinationFolder="$(OutDir)\dialects" />
+    <!--<Copy SourceFiles="@(LibFiles)" DestinationFolder="$(OutDir)\dialects" />-->
+    <!--<Delete Files="@(LibFiles)" />-->
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+         Other similar extension points exist, see Microsoft.Common.targets.
+    <Target Name="BeforeBuild">
+    </Target>
+    <Target Name="AfterBuild">
+    </Target>
+    -->
+</Project>
